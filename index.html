@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="wrapper">
+          <div class="logo">
+            <img class="logo__item" src="./img/logo.svg" alt="" />
+          </div>
+          <div class="region">
+            <div class="region_inner">
+              <a class="region__btn"></a>
+              <p class="region__txt">Москва</p>
+            </div>
+
+            <div class="region__pop_up_window">
+              <div class="region__wrapper">
+                <input
+                  class="region__input"
+                  type="text"
+                  placeholder="Регион, город, населенный пункт"
+                />
+                <div class="region__noties"></div>
+                <div class="region__list">
+                  <div id="preloader"></div>
+                  <ul class="region__list__items"></ul>
+                </div>
+              </div>
+
+              <a class="region__pop_up_window__btn">сохранить</a>
+            </div>
+          </div>
+          <div class="search">
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Учебное заведение, специальность или профессия"
+            />
+            <div class="search__prompt">
+              <p class="search__title">популярное:</p>
+              <ul class="search__block_list"></ul>
+            </div>
+          </div>
+          <div class="favorites">
+            <span class="favorites__num">1</span>
+          </div>
+          <div class="profile">
+            <p class="profile__name">Екатерина</p>
+            <img class="profile__img" src="./img/avatar.png" alt="" />
+          </div>
+        </div>
+        <div class="nav">
+          <button class="nav-burger"></button>
+          <div class="menu">
+            <a href="#" class="menu-link">Вузы</a>
+            <a href="#" class="menu-link">Колледжи</a>
+            <a href="#" class="menu-link">Техникумы</a>
+            <a href="#" class="menu-link">Училища</a>
+            <a href="#" class="menu-link">Специальности</a>
+            <a href="#" class="menu-link">Профессии</a>
+            <a href="#" class="menu-link">Отзывы</a>
+            <a href="#" class="menu-link">Учебным заведениям</a>
+            <a href="#" class="menu-link">Тест на профориентацию</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/regions.js"></script>
+    <script src="./js/search.js"></script>
+  </body>
+</html>

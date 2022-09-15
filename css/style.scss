@@ -1,0 +1,20 @@
+@import "header";
+@import "vars";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+}
+.container {
+  margin: 0 auto;
+  width: 1214px;
+}
